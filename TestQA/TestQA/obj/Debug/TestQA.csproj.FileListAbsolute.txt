@@ -1,0 +1,1 @@
+E:\CSharpProjects\Calc\TestQA\TestQA\bin\Debug\TestQA.exe.config

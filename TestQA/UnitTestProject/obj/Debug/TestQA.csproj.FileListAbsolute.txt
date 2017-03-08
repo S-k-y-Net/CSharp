@@ -1,0 +1,12 @@
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\UnitTestProject.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\UnitTestProject.pdb
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\Ionic.Zip.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\Newtonsoft.Json.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\WebDriver.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\WebDriver.Support.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\WebDriver.xml
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\bin\Debug\WebDriver.Support.xml
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\obj\Debug\TestQA.csprojResolveAssemblyReference.cache
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\obj\Debug\UnitTestProject.dll
+E:\CSharpProjects\Calc\TestQA\UnitTestProject\obj\Debug\UnitTestProject.pdb

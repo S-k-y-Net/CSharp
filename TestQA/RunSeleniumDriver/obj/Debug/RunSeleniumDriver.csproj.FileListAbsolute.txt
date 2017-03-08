@@ -1,0 +1,10 @@
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\RunSeleniumDriver.exe.config
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\RunSeleniumDriver.exe
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\RunSeleniumDriver.pdb
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\WebDriver.dll
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\WebDriver.Support.dll
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\WebDriver.xml
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\bin\Debug\WebDriver.Support.xml
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\obj\Debug\RunSeleniumDriver.csprojResolveAssemblyReference.cache
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\obj\Debug\RunSeleniumDriver.exe
+E:\CSharpProjects\Calc\TestQA\RunSeleniumDriver\obj\Debug\RunSeleniumDriver.pdb
