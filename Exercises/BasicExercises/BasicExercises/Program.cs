@@ -19,7 +19,9 @@ namespace BasicExercises
             //instance.SwapTwoNUmber();
             //instance.MultiplicationOfThreeNumbers();
             //instance.ForOperationWithTwoNumber();
-            instance.MultiplicationTable();
+            //instance.MultiplicationTable();
+            //instance.AverageOfFourNumber();
+            instance.SimpleMathEquation();
         }
 
     }

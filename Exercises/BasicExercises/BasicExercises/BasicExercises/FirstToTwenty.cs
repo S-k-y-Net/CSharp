@@ -98,5 +98,30 @@ namespace BasicExercises.ExercisesFrom1to20
                 Console.WriteLine(a + " * " + i + " = " + (a * i));
             }
         }
+
+        //Write a C# Sharp program that takes four numbers as input to calculate and print the average
+        public void AverageOfFourNumber()
+        {
+            int a, b, c, d;
+                Console.WriteLine("Get me a 4 number:\n");
+                a = Int32.Parse(Console.ReadLine());
+                b = Int32.Parse(Console.ReadLine());
+                c = Int32.Parse(Console.ReadLine());
+                d = Int32.Parse(Console.ReadLine());
+            string average = String.Format("{0:0.00}", (a + b + c + d) / 4f);
+
+            Console.WriteLine("This is average: " + average);
+        }
+
+        //Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z.
+        public void SimpleMathEquation()
+        {
+            int x, y, z;
+            Console.WriteLine("Enter x, y, z: \n");
+            x = Int32.Parse(Console.ReadLine());
+            y = Int32.Parse(Console.ReadLine());
+            z = Int32.Parse(Console.ReadLine());
+            Console.Write("(x + y) * z = " + (x + y) * z + "\nx.y + y.z = " + (x*y + y*z) + "\n");
+        }
     }
 }
