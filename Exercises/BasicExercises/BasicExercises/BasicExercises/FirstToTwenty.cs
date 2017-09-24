@@ -123,5 +123,41 @@ namespace BasicExercises.ExercisesFrom1to20
             z = Int32.Parse(Console.ReadLine());
             Console.Write("(x + y) * z = " + (x + y) * z + "\nx.y + y.z = " + (x*y + y*z) + "\n");
         }
+
+        //Write a C# Sharp program that takes an age (for example 20) as input and prints something as "You look older than 20"
+        public void RudeMethod()
+        {
+            int age;
+            Console.WriteLine("Enter your age:");
+            age = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("You look older than {0}", age);
+        }
+
+        //Write a C# program to that takes a number as input and display it four times in a row (separated by blank spaces), and then four times in the next row, with no separation. You should do it two times: Use Console. Write and then use {0}
+        public void PrintNumber()
+        {
+            int number;
+            Console.WriteLine("Enter the number:");
+            number = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= 2; i++)
+            {
+                Console.WriteLine("{0} {0} {0} {0}", number);
+                Console.WriteLine("{0}{0}{0}{0}", number);
+            }
+        }
+
+        //Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit
+        public void RectangleByNUmber()
+        {
+            int number;
+            Console.WriteLine("Enter the number:");
+            number = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("{0}{0}{0}", number);
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine("{0} {0}", number);
+            }
+            Console.WriteLine("{0}{0}{0}", number);
+        }
     }
 }

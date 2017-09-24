@@ -21,7 +21,10 @@ namespace BasicExercises
             //instance.ForOperationWithTwoNumber();
             //instance.MultiplicationTable();
             //instance.AverageOfFourNumber();
-            instance.SimpleMathEquation();
+            //instance.SimpleMathEquation();
+            //instance.RudeMethod();
+            //instance.PrintNumber();
+            instance.RectangleByNUmber();
         }
 
     }
