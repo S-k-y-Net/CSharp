@@ -24,7 +24,11 @@ namespace BasicExercises
             //instance.SimpleMathEquation();
             //instance.RudeMethod();
             //instance.PrintNumber();
-            instance.RectangleByNUmber();
+            //instance.RectangleByNUmber();
+            //instance.ConvertCelsiusToKelvinAndFahrenheit();
+            //instance.RemoveCharacterByIndex();
+            //instance.ChangeFirstAndLastChars();
+            instance.AddFirstCharToFrontAndBack();
         }
 
     }

@@ -8,13 +8,13 @@ namespace BasicExercises.ExercisesFrom1to20
 {
     class FirstToTwenty
     {
-        //Write a C# Sharp program to print Hello and your name in a separate line
+        //1. Write a C# Sharp program to print Hello and your name in a separate line
         public void HelloWithMyName()
         {
             Console.WriteLine("Hello \nMy name is Max");
         }
 
-        //Write a C# Sharp program to print the sum of two numbers.
+        //2. Write a C# Sharp program to print the sum of two numbers.
         public void SumOfTwoNumbers()
         {
             int a, b;
@@ -25,7 +25,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine(a + b);
         }
 
-        //Write a C# Sharp program to print the result of dividing two numbers.
+        //3. Write a C# Sharp program to print the result of dividing two numbers.
         public void DivideTwoNUmbers()
         {
             int a, b;
@@ -36,7 +36,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine(a / b);
         }
 
-        //Write a C# Sharp program to print the result of the specified operations
+        //4. Write a C# Sharp program to print the result of the specified operations
         /*Test data:
             -1 + 4 * 6
             ( 35+ 5 ) % 7
@@ -51,7 +51,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
         }
 
-        //Write a C# Sharp program to swap two numbers
+        //5. Write a C# Sharp program to swap two numbers
         public void SwapTwoNUmber()
         {
             int a, b;
@@ -64,7 +64,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine(b);
         }
 
-        //Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user
+        //6. Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user
         public void MultiplicationOfThreeNumbers()
         {
             int a, b, c;
@@ -76,7 +76,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine("The result is : " + a * b * c);
         }
 
-        // Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user
+        //7. Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user
         public void ForOperationWithTwoNumber()
         {
             int a, b;
@@ -87,7 +87,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine("Adding: " + (a + b) + "\nSubtracting: " + (a - b) + "\nMultiplying: " + (a * b) + "\nDividing: " + (a / b));
         }
 
-        //Write a C# Sharp program that takes a number as input and print its multiplication table
+        //8. Write a C# Sharp program that takes a number as input and print its multiplication table
         public void MultiplicationTable()
         {
             int a;
@@ -99,7 +99,7 @@ namespace BasicExercises.ExercisesFrom1to20
             }
         }
 
-        //Write a C# Sharp program that takes four numbers as input to calculate and print the average
+        //9. Write a C# Sharp program that takes four numbers as input to calculate and print the average
         public void AverageOfFourNumber()
         {
             int a, b, c, d;
@@ -113,7 +113,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine("This is average: " + average);
         }
 
-        //Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z.
+        //10 .Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z.
         public void SimpleMathEquation()
         {
             int x, y, z;
@@ -124,7 +124,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.Write("(x + y) * z = " + (x + y) * z + "\nx.y + y.z = " + (x*y + y*z) + "\n");
         }
 
-        //Write a C# Sharp program that takes an age (for example 20) as input and prints something as "You look older than 20"
+        //11. Write a C# Sharp program that takes an age (for example 20) as input and prints something as "You look older than 20"
         public void RudeMethod()
         {
             int age;
@@ -133,7 +133,7 @@ namespace BasicExercises.ExercisesFrom1to20
             Console.WriteLine("You look older than {0}", age);
         }
 
-        //Write a C# program to that takes a number as input and display it four times in a row (separated by blank spaces), and then four times in the next row, with no separation. You should do it two times: Use Console. Write and then use {0}
+        //12. Write a C# program to that takes a number as input and display it four times in a row (separated by blank spaces), and then four times in the next row, with no separation. You should do it two times: Use Console. Write and then use {0}
         public void PrintNumber()
         {
             int number;
@@ -146,7 +146,7 @@ namespace BasicExercises.ExercisesFrom1to20
             }
         }
 
-        //Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit
+        //13. Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit
         public void RectangleByNUmber()
         {
             int number;
@@ -158,6 +158,88 @@ namespace BasicExercises.ExercisesFrom1to20
                 Console.WriteLine("{0} {0}", number);
             }
             Console.WriteLine("{0}{0}{0}", number);
+        }
+
+        //14. Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit
+        public void ConvertCelsiusToKelvinAndFahrenheit()
+        {
+            Console.WriteLine("Enter celsius: ");
+            try
+            {
+                int celsius = Int32.Parse(Console.ReadLine());
+                double fahranheit = 1.8 * celsius + 32;
+                double kelvin = 273.15 + celsius;
+                Console.WriteLine(celsius + " Celsius = " + fahranheit + " Fahrenheit and = " + kelvin + " Kelvin");
+            }
+            catch (Exception error) {
+                Console.WriteLine(error);
+            }
+        }
+
+        //15.Write a C# program remove specified a character from a non-empty string using index of a character. 
+        /*Test Data:
+        w3resource
+        Sample Output:
+        wresource
+        w3resourc
+        3resource*/
+        public void RemoveCharacterByIndex()
+        {
+            Console.WriteLine("Enter string: ");
+            string userString = Console.ReadLine();
+
+            try
+            {
+                Console.WriteLine("Enter index of character which should be remove");
+                int index = Int32.Parse(Console.ReadLine());
+                userString = userString.Remove(index - 1, 1);
+                Console.WriteLine(userString);
+            }
+            catch (Exception error)
+            {
+                Console.Write(error);
+            }
+
+            //foreach (char ch in arr)
+            //{
+            //    Console.Write(ch + "\n");
+            //}
+        }
+        //16. Write a C# program to create a new string from a given string where the first and last characters will change their positions.
+        //Test Data:
+        //w3resource
+        //Python
+        //Sample Output:
+        //e3resourcw
+        //nythoP
+        
+        public void ChangeFirstAndLastChars()
+        {
+            Console.WriteLine("Enter string and I change first and last character positions");
+            string userInput = Console.ReadLine();
+
+            try
+            {
+                //not my solutioin
+                userInput = userInput.Length > 1 ? userInput.Substring(userInput.Length - 1) + userInput.Substring(1, userInput.Length - 2) + userInput.Substring(0, 1) : userInput;
+                Console.WriteLine(userInput);
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine(error);
+            }
+        }
+
+        //17. Write a C# program to create a new string from a given string (length 1 or more ) with the first character added at the front and back. 
+        //Sample Output:
+        //Input a string : The quick brown fox jumps over the lazy dog.
+        //TThe quick brown fox jumps over the lazy dog.T
+        public void AddFirstCharToFrontAndBack()
+        {
+            Console.WriteLine("Enter string: ");
+            string userInput = Console.ReadLine();
+            userInput = userInput.Length > 1 ? userInput.Insert(0, userInput.Substring(0, 1)) + userInput.Substring(0, 1) : userInput;
+            Console.WriteLine(userInput);
         }
     }
 }
