@@ -241,5 +241,103 @@ namespace BasicExercises.ExercisesFrom1to20
             userInput = userInput.Length > 1 ? userInput.Insert(0, userInput.Substring(0, 1)) + userInput.Substring(0, 1) : userInput;
             Console.WriteLine(userInput);
         }
+
+        //Write a C# program to check two given integers and return true if one is negative and one is positive. Go to the editor
+        //Sample Output:
+        //Input first integer:
+        //-5 
+        //Input second integer: 
+        //25 
+        //Check if one is negative and one is positive: 
+        //True
+        public Boolean CheckIfPositiveAndNagative()
+        {
+            Console.WriteLine("Input first integer");
+            int first = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Input second integer");
+            int second = Int32.Parse(Console.ReadLine());
+
+            if ((first > 0 & second < 0) || (first < 0 & second > 0)) {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //19. Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum
+        public double SumAndTripleSumIfEqual(double first, double second)
+        {
+            double sum = first + second;
+            if (first.Equals(second))
+            {
+                return sum * 3;
+            }
+            return sum;
+            //Solution from outside
+            //return a == b ? (a + b) * 3 : a + b;
+        }
+
+        //20. Write a C# program to get the absolute value of the difference between two given numbers. 
+        //Return double the absolute value of the difference if the first number is greater than second number
+        public double AbsoluteDifferenceBetweenTwo(double first, double second)
+        {
+             
+            if (first > second)
+            {
+                return Math.Abs(Math.Abs(first) - Math.Abs(second)) * 2;
+            }
+            return Math.Abs(Math.Abs(first) - Math.Abs(second)); ;
+            //return first > second ? Math.Abs(Math.Abs(first) - Math.Abs(second)) : Math.Abs(Math.Abs(first) - Math.Abs(second)) * 2;
+        }
+
+        //21.Write a C# program to check the sum of the two given integers and return true if one of the integer is 20 or if their sum is 20
+        public Boolean IfEqualTwenty(int first, int second)
+        {
+            return first.Equals(20) || first + second == 20 || second.Equals(20) ? true : false;
+        }
+
+        //22. Write a C# program to check if an given integer is within 20 of 100 or 200
+        public Boolean WithinTwentyOrHudnred()
+        {
+            Console.WriteLine("Input integer ");
+            try
+            {
+                int input = Int32.Parse(Console.ReadLine());
+                return Math.Abs(input - 100) <= 10 || Math.Abs(input - 200) <= 10 ? true : false;
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine(error);
+                return false;
+            }
+        }
+
+        //23.Write a C# program to convert a given string into lowercase
+        public string ConvertToLowercase(string str)
+        {
+            return str.ToLower();
+        }
+
+        //24. Write a C# program to find the longest word in a string. 
+        //Test Data: Write a C# Sharp Program to display the following pattern using the alphabet.
+        //Sample Output:
+        //following
+        public string FindLongestWord(string str)
+        {
+            int count = 0;
+            string maxCount = "";
+            List<string> list = str.Split().ToList();
+            foreach (string word in list)
+            {
+                if (word.Length > count)
+                {
+                    maxCount = word;
+                    count = word.Length;
+                }
+            }
+            return maxCount;
+        }
     }
 }

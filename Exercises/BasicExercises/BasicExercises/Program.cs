@@ -28,7 +28,15 @@ namespace BasicExercises
             //instance.ConvertCelsiusToKelvinAndFahrenheit();
             //instance.RemoveCharacterByIndex();
             //instance.ChangeFirstAndLastChars();
-            instance.AddFirstCharToFrontAndBack();
+            //instance.AddFirstCharToFrontAndBack();
+            //Boolean b = instance.CheckIfPositiveAndNagative();
+            //Console.WriteLine(b);
+            //Console.WriteLine(instance.SumAndTripleSumIfEqual(5.5,5.5));
+            //Console.WriteLine(instance.AbsoluteDifferenceBetweenTwo(1, 7));
+            //Console.WriteLine(instance.IfEqualTwenty(1, 19));
+            //Console.WriteLine(instance.WithinTwentyOrHudnred());
+            //Console.WriteLine(instance.ConvertToLowercase("gADAFgfag"));
+            Console.WriteLine(instance.FindLongestWord("Write a C# Sharp Program to displafafafafy the following pattern using the alphabet"));
         }
 
     }
