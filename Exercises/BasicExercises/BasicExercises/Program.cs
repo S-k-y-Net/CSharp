@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BasicExercises.ExercisesFrom1to20;
+using BasicExercises;
 
 namespace BasicExercises
 {
@@ -11,7 +12,8 @@ namespace BasicExercises
     {
         static void Main(string[] args)
         {
-            FirstToTwenty instance = new FirstToTwenty();
+            FirstToTwentyFive instance = new FirstToTwentyFive();
+            BasicExercises.TwentySixToFiftyThree instandtwo = new BasicExercises.TwentySixToFiftyThree();
             //instance.HelloWithMyName();
             //instance.SumOfTwoNumbers();
             //instance.DivideTwoNUmbers();
@@ -36,7 +38,12 @@ namespace BasicExercises
             //Console.WriteLine(instance.IfEqualTwenty(1, 19));
             //Console.WriteLine(instance.WithinTwentyOrHudnred());
             //Console.WriteLine(instance.ConvertToLowercase("gADAFgfag"));
-            Console.WriteLine(instance.FindLongestWord("Write a C# Sharp Program to displafafafafy the following pattern using the alphabet"));
+            //Console.WriteLine(instance.FindLongestWord("Write a C# Sharp Program to displafafafafy the following pattern using the alphabet"));
+            //instance.OddNumbers();
+
+            //instandtwo.SumPrimeNumber();
+            //instandtwo.SumOfDigits();
+            instandtwo.Reverce();
         }
 
     }

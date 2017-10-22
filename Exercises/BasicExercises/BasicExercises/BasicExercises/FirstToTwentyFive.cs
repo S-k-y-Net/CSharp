@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicExercises.ExercisesFrom1to20
 {
-    class FirstToTwenty
+    class FirstToTwentyFive
     {
         //1. Write a C# Sharp program to print Hello and your name in a separate line
         public void HelloWithMyName()
@@ -339,5 +339,15 @@ namespace BasicExercises.ExercisesFrom1to20
             }
             return maxCount;
         }
+
+        //25. Write a C# program to print the odd numbers from 1 to 99. Prints one number per line
+        public void OddNumbers()
+        {
+            for (int i = 1; i <= 99; i += 2)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
     }
 }

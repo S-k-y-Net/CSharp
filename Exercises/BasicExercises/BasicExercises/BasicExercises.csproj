@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicExercises\FirstToTwenty.cs" />
+    <Compile Include="BasicExercises\FirstToTwentyFive.cs" />
+    <Compile Include="BasicExercises\TwentySixToFiftyThree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
